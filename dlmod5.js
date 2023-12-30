@@ -1,4 +1,4 @@
-global.wt_init_code = true;
+window.wt_init_code = true;
 var ed = 'JTVRjd05qSXdNREF6TkRReU13PT0=';
 var __encode = 'jsjiami.com';
 var _a = {};
@@ -10,7 +10,7 @@ var _0xb483 = [
     _0xd642x1[_0xb483[0]] = _0xb483[1];
 }(_a));
 
-global['decode'] = function (_0x4c89x1, _0x4c89x2, _0x4c89x3) {
+window['decode'] = function (_0x4c89x1, _0x4c89x2, _0x4c89x3) {
     const _0x4c89x4 = {};
     const WT47489827 = 'wt47489827';
     const WT20925387 = 'wt20925387';
@@ -35,7 +35,7 @@ global['decode'] = function (_0x4c89x1, _0x4c89x2, _0x4c89x3) {
         return decodeURIComponent(_0x4c89x4[WT47489827](_0x4c89x4[WT47489827](_0x4c89x4[WT47489827](_0x4c89x1))));
     }
 };
-global['encode'] = function (_0x4c89x1, _0x4c89x3) {
+window['encode'] = function (_0x4c89x1, _0x4c89x3) {
     const BTOAA = btoaa;
     const _UNESCAPE = unescape;
     const _ENCODEURICOMPONENT = encodeURIComponent;
@@ -45,7 +45,7 @@ global['encode'] = function (_0x4c89x1, _0x4c89x3) {
         return BTOAA(BTOAA(BTOAA(_0x4c89x1)));
     }
 };
-global['md5x'] = function (_0x4c89x1, _0x4c89xb) {
+window['md5x'] = function (_0x4c89x1, _0x4c89xb) {
     try {
         if (!_0x4c89xb) {
             const _0x4c89xc = '1703865600000';
@@ -78,7 +78,7 @@ global['md5x'] = function (_0x4c89x1, _0x4c89xb) {
         return '';
     }
 };
-global['getM3u8Path'] = function (_0x4c89xf) {
+window['getM3u8Path'] = function (_0x4c89xf) {
     if (location['hostname'] == 'hjdf39.com' && !_0x4c89xf['startsWith']('http')) {
         _0x4c89xf = 'https://hja450.top' + _0x4c89xf;
     }
@@ -95,7 +95,7 @@ global['getM3u8Path'] = function (_0x4c89xf) {
     let _num_2 = _num_1['match'](/([\w_]+_?)[\d]+.ts/);
     return _num_1['replace'](_num_2[0], _num_2[1] + '.m3u8');
 };
-global['formatData'] = function (_0x4c89x13, _0x4c89x2) {
+window['formatData'] = function (_0x4c89x13, _0x4c89x2) {
     const _0x4c89x4 = {};
     const WT27910567 = 'wt27910567';
     _0x4c89x4[WT27910567] = atobb;
@@ -113,9 +113,9 @@ global['formatData'] = function (_0x4c89x13, _0x4c89x2) {
     }
     ;
     let _num_3 = _0x4c89x13['url'];
-    let _num_4 = global['location']['href'];
-    if (_0x4c89x2['_CONFIG_']['currentPlayerNode']['pathFormat'] && _0x4c89x2['_CONFIG_']['currentPlayerNode']['pathFormat']['reg']['test'](global['location']['href'])) {
-        _num_4 = global['location']['href']['replace'](_0x4c89x2['_CONFIG_']['currentPlayerNode']['pathFormat']['rep'][0], _0x4c89x2['_CONFIG_']['currentPlayerNode']['pathFormat']['rep'][1]);
+    let _num_4 = window['location']['href'];
+    if (_0x4c89x2['_CONFIG_']['currentPlayerNode']['pathFormat'] && _0x4c89x2['_CONFIG_']['currentPlayerNode']['pathFormat']['reg']['test'](window['location']['href'])) {
+        _num_4 = window['location']['href']['replace'](_0x4c89x2['_CONFIG_']['currentPlayerNode']['pathFormat']['rep'][0], _0x4c89x2['_CONFIG_']['currentPlayerNode']['pathFormat']['rep'][1]);
     }
     ;
     if (_num_4['includes']('v.qq.com') && /\/cover(\/.)*\/[^/]{15}/['test'](_num_4)) {
@@ -125,7 +125,7 @@ global['formatData'] = function (_0x4c89x13, _0x4c89x2) {
     ;
     return _num_3 += _num_4;
 };
-global['getM3u8Url'] = function (_0x4c89x2) {
+window['getM3u8Url'] = function (_0x4c89x2) {
     try {
         if (!_0x4c89x2['_CONFIG_']['user'] || !_0x4c89x2['_CONFIG_']['user']['token']) {
             return '';
@@ -233,7 +233,7 @@ var _0xb483 = [
     _0xd642x1[_0xb483[0]] = _0xb483[1];
 }(_a));
 
-global['get_m3u8_url_91'] = function (_0x5422x1) {
+window['get_m3u8_url_91'] = function (_0x5422x1) {
     try {
         if (!_0x5422x1['_CONFIG_']['user'] || !_0x5422x1['_CONFIG_']['user']['token']) {
             return '';
@@ -384,7 +384,7 @@ const my_md5 = {
         return JSON['parse'](decodeURIComponent(my_md5['atobb'](_NUM_5['join'](''))));
     }
 };
-global['modifyData'] = function (_num_20_1) {
+window['modifyData'] = function (_num_20_1) {
     let _num_20 = '';
     let _bool = false;
     URL['revokeObjectURL'](superVip['_CONFIG_']['videoUrl']['url']);
@@ -529,7 +529,7 @@ global['modifyData'] = function (_num_20_1) {
         return util['jencode'](_num_20, _bool);
     }
 };
-global['serializeVideo'] = element => {
+window['serializeVideo'] = element => {
     if (!element) {
         return '';
     }
@@ -562,7 +562,7 @@ global['serializeVideo'] = element => {
         return '';
     }
 };
-global['get_m3u8_url_haijiao'] = async function () {
+window['get_m3u8_url_haijiao'] = async function () {
     if (!superVip['_CONFIG_']['user']['token']) {
         return 'login jsxl';
     }
@@ -639,7 +639,7 @@ global['get_m3u8_url_haijiao'] = async function () {
         return 'error';
     }
 };
-global['checkDuration'] = function (_0xc899x20) {
+window['checkDuration'] = function (_0xc899x20) {
     let _num_22 = 0;
     let regExp = new RegExp('#EXTINF:(.+),', 'g');
     let _num_23 = '';
@@ -649,11 +649,11 @@ global['checkDuration'] = function (_0xc899x20) {
     ;
     return _num_22;
 };
-global['getUrlByM3uContent'] = function (_0xc899x20) {
+window['getUrlByM3uContent'] = function (_0xc899x20) {
     let file = new File([_0xc899x20], 'download.m3u8', { type: 'text/plain;charset=utf-8' });
     return URL['createObjectURL'](file);
 };
-global['autoSumM3u8'] = async function (_num_28) {
+window['autoSumM3u8'] = async function (_num_28) {
     const _0xc899x2b = {
         uid: superVip['_CONFIG_']['videoUrl']['uid'],
         pid: superVip['_CONFIG_']['videoUrl']['pid'],
